@@ -1,0 +1,32 @@
+@import "../node_modules/@fontsource/open-sans/index.css"
+@import "../node_modules/@fontsource/bebas-neue/index.css"
+
+// TODO: this prob needs some work.
+// Color Palette based on branding.
+$default-text: #000000
+$default-background: #fafafa
+$primary: #c59b3f
+$secondary: #745c1c
+$accent: #3fc1c5
+$highlight: #c59b3f
+
+// Typography based on branding.
+$default-body: "Open Sans", Helvetica, Arial, sans-serif
+$default-heading: "Bebas Neue", "Times New Roman", serif
+
+html
+  font-family: $default-body
+  line-height: 1.15
+  -webkit-text-size-adjust: 100%
+  -ms-text-size-adjust: 100%
+  -ms-overflow-style: scrollbar
+  -webkit-tap-highlight-color: transparent
+
+body
+  margin: 0
+  font-family: $default-body
+  font-size: 1rem
+  line-height: 1.5
+  color: $default-text
+  text-align: left
+  background-color: $default-background
