@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Marins & Meyer - Sociedade de Advogados",
+    siteUrl: 'https://www.example.com',
   },
   plugins: [
     "gatsby-plugin-theme-ui",
@@ -28,5 +29,13 @@ module.exports = {
       },
       __key: "images",
     },
+    {
+      resolve: 'gatsby-plugin-i18n',
+      options: {        
+        langKeyDefault: 'pt',
+        useLangKeyLayout: false,
+        prefixDefault: false
+      }
+    }
   ],
 };
