@@ -1,17 +1,12 @@
-import * as React from "react"
-import {Container, Navbar} from "react-bootstrap";
+import * as React from "react";
+import SNavbar from "./snavbar";
+import "../styles/skeleton.sass";
 
 export default class Skeleton extends React.Component {
     render() {
-        return <Container>
-            <Navbar bg="light" variant="dark" className="navbar">
-                <Navbar.Brand href="#home">
-                    <h1>Marins & Meyer</h1>
-                </Navbar.Brand>
-            </Navbar>
+        return <div>
+            <SNavbar/>
             {this.props.children}
-            <Navbar>
-            </Navbar>
-        </Container>
+        </div>
     }
 }

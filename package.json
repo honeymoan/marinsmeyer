@@ -14,6 +14,7 @@
     "dependencies": {
         "@fontsource/bebas-neue": "^4.2.2",
         "@fontsource/open-sans": "^4.2.2",
+        "@svgr/webpack": "^5.5.0",
         "bootstrap": "^4.6.0",
         "gatsby": "^2.31.1",
         "gatsby-image": "^2.11.0",
@@ -23,6 +24,7 @@
         "gatsby-plugin-sass": "^4.0.2",
         "gatsby-plugin-sharp": "^2.14.1",
         "gatsby-plugin-sitemap": "^2.12.0",
+        "gatsby-plugin-svgr": "^3.0.0-beta.0",
         "gatsby-source-filesystem": "^2.11.0",
         "gatsby-transformer-sharp": "^2.12.0",
         "i18next": "^19.9.2",
