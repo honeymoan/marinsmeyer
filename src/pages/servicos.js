@@ -1,6 +1,6 @@
 import * as React from "react"
 
-export default class Services extends React.Component {
+export default class Servicos extends React.Component {
   render() {
     return <div>
       services
