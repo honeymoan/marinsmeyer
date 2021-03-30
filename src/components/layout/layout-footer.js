@@ -6,14 +6,14 @@ export default class LayoutFooter extends React.Component {
     render() {
         return <footer className="bg-light p-3">
             <div className="row">
-                <div className="col text-center">
+                <div className="col-md pb-md-1 text-center">
                     <a className="m-1" href="https://www.instagram.com/marinsmeyeradv/"><FaInstagram size="24px"/></a>
                     <a href="https://www.facebook.com/marinsmeyeradv"><FaFacebookSquare size="24px"/></a>
                 </div>
-                <div className="col text-center">
+                <div className="col-md pb-md-1 text-center">
                     <a href="/privacidade">Privacy Policy</a> / <a href="/avisos">Disclaimers</a>
                 </div>
-                <div className="col text-center">
+                <div className="col-md text-center">
                     © 2021 Marins & Meyer Sociedade de Advogados
                 </div>
             </div>

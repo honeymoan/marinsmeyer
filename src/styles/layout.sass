@@ -1,5 +1,11 @@
+@import "mixins"
+
 .navbar
   padding: 0 5rem 0 !important
+
+@include breakpoint(mobileonly)
+  .navbar
+    padding: 0 1rem 0 !important
 
 .navbar-brand-text
   font-size: xx-large !important
@@ -7,3 +13,7 @@
 
 .navbar-brand-svg
   margin-right: 1rem !important
+
+.page-content
+  padding: 0 !important
+  margin: 0 !important
