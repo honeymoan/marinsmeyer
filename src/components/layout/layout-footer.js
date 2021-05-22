@@ -11,7 +11,7 @@ export default class LayoutFooter extends React.Component {
                     <a href="https://www.facebook.com/marinsmeyeradv"><FaFacebookSquare size="24px"/></a>
                 </div>
                 <div className="col-md pb-md-1 text-center">
-                    <a href="/privacidade">Privacy Policy</a> / <a href="/avisos">Disclaimers</a>
+                    <a href="/privacidade">Política de Privacidade</a> / <a href="/avisos">Avisos Legais</a>
                 </div>
                 <div className="col-md text-center">
                     © 2021 Marins & Meyer Sociedade de Advogados
