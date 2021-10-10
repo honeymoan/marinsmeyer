@@ -4,6 +4,7 @@ import IndexServices from "../components/index/index-services";
 import IndexSpace from "../components/index/index-space";
 import IndexNumbers from "../components/index/index-numbers";
 import IndexTeam from "../components/index/index-team";
+import IndexContact from "../components/index/index-contact";
 import "./../styles/index.sass";
 
 export default class Index extends React.Component {
@@ -11,9 +12,10 @@ export default class Index extends React.Component {
         return <>
             <IndexHero />
             <IndexServices />
-            <IndexSpace />
             <IndexTeam />
+            <IndexSpace />
             <IndexNumbers />
+            <IndexContact />
         </>
     }
 }

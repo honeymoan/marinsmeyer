@@ -5,7 +5,7 @@ import {FaInstagram} from "@react-icons/all-files/fa/FaInstagram";
 import {FaFacebook} from "@react-icons/all-files/fa/FaFacebook";
 
 export default function IndexTeam() {
-    return <Container id="profissionais">
+    return <Container id="profissionais" className="mt-5">
         <div className="row justify-content-center mb-4">
             <div className="col-md-7 text-center">
                 <h3 className="display-4">Equipe experiente e profissional</h3>
@@ -16,8 +16,8 @@ export default function IndexTeam() {
             <div className="col-lg-3 mb-4">
                 <div className="row">
                     <div className="col-md-12">
-                        <StaticImage src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg"
-                                     alt="wrapkit" className="img-fluid rounded"/>
+                        <StaticImage src="../../images/team/cleide-machado.jpg"
+                                     alt="Cleide Machado Profile Picture" className="img-fluid rounded"/>
                     </div>
                     <div className="col-md-12 text-center">
                         <div>
@@ -43,8 +43,8 @@ export default function IndexTeam() {
             <div className="col-lg-3 mb-4">
                 <div className="row">
                     <div className="col-md-12">
-                        <StaticImage src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg"
-                                     alt="wrapkit" className="img-fluid rounded"/>
+                        <StaticImage src="../../images/team/laura-meyer.jpg"
+                                     alt="Laura Meyer Profile Picture" className="img-fluid rounded"/>
                     </div>
                     <div className="col-md-12 text-center">
                         <div>

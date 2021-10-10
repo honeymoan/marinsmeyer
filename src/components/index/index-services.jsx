@@ -8,7 +8,7 @@ export default function IndexServices() {
     return <Container id="servicos" fluid className="py-5 px-5 shadow-lg feature-block-1">
         <Row className="px-5 justify-content-center">
             <Col className="justify-content-center">
-                <h2 className="text-center">Áreas de Atuação</h2>
+                <h2 className="display-4 text-center">Áreas de Atuação</h2>
                 <p className="lead text-center">Conheça as especialidades que oferecemos e saiba como podemos te
                     ajudar.</p>
             </Col>

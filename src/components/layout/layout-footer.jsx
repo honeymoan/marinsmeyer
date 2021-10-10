@@ -16,15 +16,3 @@ export default class LayoutFooter extends React.Component {
         </Container>
     }
 }
-
-// <div className="row">
-//     <div className="col-md pb-md-1 text-center">
-
-//     </div>
-//     <div className="col-md pb-md-1 text-center">
-//         <a href="/privacidade">Política de Privacidade</a> / <a href="/avisos">Avisos Legais</a>
-//     </div>
-//     <div className="col-md text-center">
-//         © 2021 Marins & Meyer Sociedade de Advogados
-//     </div>
-// </div>

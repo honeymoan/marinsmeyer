@@ -1,14 +1,15 @@
 import * as React from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import {StaticImage} from "gatsby-plugin-image";
+import IndexMaps from "./index-maps";
 import "../../styles/index.sass";
 
 // TODO: Fix StaticImage left side padding too small.
 
 export default function IndexSpace() {
-    return <Container className="my-5">
-        <Row className="p-4 pb-0 pt-lg-5 align-items-center rounded-5 border shadow-lg">
-            <Col className="col-lg-7 p-3 p-lg-5 pt-lg-3">
+    return <Container className="my-3 p-5 rounded-5 border shadow-sm">
+        <Row className="justify-content-center align-content-center">
+            <Col className="col">
                 <h1 className="display-4 font-weight-bold">Espaço Moderno <br/> e Confortável</h1>
                 <p className="lead">
                     Nosso escritório é localizado no Lozandes Business Tower, dentro do Lozandes Shopping,
@@ -16,10 +17,13 @@ export default function IndexSpace() {
                     eficiência para você.
                 </p>
             </Col>
-            <Col className="col-lg-4 h-100 offset-lg-1 p-0 position-relative">
-                <StaticImage className="img-fluid border rounded-5 shadow-lg mb-4"
+            <Col className="col offset-lg-1">
+                <StaticImage className="img-fluid border rounded-5 shadow-sm mb-4"
                              src="../../images/features/lozandes-shopping.jpg" alt="Lozandes Business Tower"/>
             </Col>
+        </Row>
+        <Row className="pt-2 justify-content-center">
+            <IndexMaps className="rounded-5 shadow-sm border" styles={{height: "400px", width: "800px"}} />
         </Row>
     </Container>;
 }
