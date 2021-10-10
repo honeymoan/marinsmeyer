@@ -14,9 +14,9 @@ export default class LayoutNavbar extends React.Component {
         <Navbar.Collapse id="nav-collapse">
             <Nav className="ml-auto">
                 <Nav.Link href="/">Inicio</Nav.Link>
-                <Nav.Link href="/servicos">Serviços</Nav.Link>
-                <Nav.Link href="/profissionais">Professionais</Nav.Link>
-                <Nav.Link href="/contato">Contato</Nav.Link>
+                <Nav.Link href="#servicos">Serviços</Nav.Link>
+                <Nav.Link href="#profissionais">Professionais</Nav.Link>
+                <Nav.Link href="#contato">Contato</Nav.Link>
             </Nav>
         </Navbar.Collapse>
     </Navbar>
