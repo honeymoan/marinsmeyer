@@ -6,6 +6,7 @@ export default function IndexContact() {
         <div className="row justify-content-center mb-4">
             <div className="col-md-7 text-center">
                 <h3 className="display-4">Entre em contato conosco!</h3>
+                <p className="lead">Atráves de um dos modos de comunicação abaixo.</p>
             </div>
         </div>
         <div className="row justify-content-center">

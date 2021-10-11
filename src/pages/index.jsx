@@ -14,7 +14,7 @@ export default class Index extends React.Component {
             <IndexServices />
             <IndexTeam />
             <IndexSpace />
-            <IndexNumbers />
+            {/*<IndexNumbers />*/}
             <IndexContact />
         </>
     }

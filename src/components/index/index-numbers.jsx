@@ -24,8 +24,8 @@ export default function IndexNumbers() {
             <div className="col">
                 <FaBriefcase className="m-1" size="40"/>
                 <div className="text-center">
-                    <span className="display-4">4</span>
-                    <p className="m-1 lead">Anos de Experiência</p>
+                    <span className="display-4">5</span>
+                    <p className="m-1 lead">Anos de Escritório</p>
                 </div>
             </div>
         </div>

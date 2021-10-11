@@ -21,17 +21,17 @@ export default function IndexTeam() {
                     </div>
                     <div className="col-md-12 text-center">
                         <div>
-                            <p className="mt-1 lead mb-0">Cleide Machado Marins</p>
-                            <p>You can relay on our amazing features list and also our customer services will be great
-                                experience.</p>
+                            <p className="mt-1 lead mb-0">Cleide Machado</p>
+                            <p>Graduada pela Universidade Salgado de Oliveira.
+                                Civilista com foco no consumidor e relações contratuais em geral. Vice Presidente da Comissão de inovação e gestão jurídica da OAB/GO.</p>
                             <ul className="list-inline">
                                 <li className="list-inline-item">
-                                    <a href="#" className="text-decoration-none d-block px-1">
+                                    <a href="https://www.instagram.com/cleidemarinsadv/" className="text-decoration-none d-block px-1">
                                         <FaInstagram className="mx-1" size="24"/>
                                     </a>
                                 </li>
                                 <li className="list-inline-item">
-                                    <a href="#" className="text-decoration-none d-block px-1">
+                                    <a href="https://www.facebook.com/cleide.machado.16" className="text-decoration-none d-block px-1">
                                         <FaFacebook className="mx-1" size="24"/>
                                     </a>
                                 </li>
