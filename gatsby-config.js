@@ -11,9 +11,9 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-image",
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: "gatsby-plugin-google-gtag",
       options: {
-        trackingId: "UA-124593260-1",
+        trackingIds: [ "UA-124593260-1" ],
       },
     },
     {
@@ -29,19 +29,6 @@ module.exports = {
         path: "./src/images/",
       },
       __key: "images",
-    },
-    {
-      resolve: 'gatsby-plugin-svgr',
-      options: {
-        prettier: true,
-        svgo: true,
-        svgoConfig: {
-          plugins: [
-            { removeViewBox: true },
-            { cleanupIDs: true }
-          ],
-        },
-      },
     },
   ],
 };
